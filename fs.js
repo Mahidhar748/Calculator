@@ -7,6 +7,7 @@ function calc(num){
 function eql(){
     input.value = eval(exp)
     exp = ""
+    calc(input.value)
 }
 function era(){
     exp = ""
