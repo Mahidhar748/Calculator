@@ -50,3 +50,18 @@
 .btn:hover{
     box-shadow: 0px 0px 10px black;
 }
+@media (width<=399px){
+    #Calc_body{
+        height: 300px;
+        width: 250px;
+    }
+    .btn{
+        /* font-size: 15px; */
+        height: 43px;
+        width: 59px;
+   }
+   .eql{
+    margin-top: 5px;
+    width: 247px;
+   }
+}
